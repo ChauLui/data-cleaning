@@ -1,21 +1,25 @@
+
+# CodeBook for file: AvgFeatureVaules.txt
+
 ID - the original rownames from X_train.txt or X_test.txt
 
 src - indicates whether the data is from the training set or the test set
 
 activityName - types of activity tracked
-	1 WALKING
-	2 WALKING_UPSTAIRS
-	3 WALKING_DOWNSTAIRS
-	4 SITTING
-	5 STANDING
-	6 LAYING
-
+	
+1. WALKING
+2. WALKING UPSTAIRS
+3. WALKING DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
 subjectNum - the participants of the exercise/movement in the dataset.
 	Participants are numbered 1 through 30.
 
 
 featureName
+
  [1] "tBodyAcc-mean()-X"                   
  [2] "tBodyAcc-mean()-Y"                   
  [3] "tBodyAcc-mean()-Z"                   
@@ -104,4 +108,4 @@ featureName
 [86] "angle(Z,gravityMean)" 
 
 featureValue
-	range from -1 to 1
+* range from -1 to 1
