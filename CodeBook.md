@@ -1,21 +1,18 @@
-ID - the original rownames from X_train.txt or X_test.txt
-
-src - indicates whether the data is from the training set or the test set
-
-activityName - types of activity tracked
-	1 WALKING
-	2 WALKING_UPSTAIRS
-	3 WALKING_DOWNSTAIRS
-	4 SITTING
-	5 STANDING
-	6 LAYING
-
 
 subjectNum - the participants of the exercise/movement in the dataset.
 	Participants are numbered 1 through 30.
 
 
-featureName
+activityName - types of activity tracked
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
+
+measurement columns: value range from -1 to 1
+
  [1] "tBodyAcc-mean()-X"                   
  [2] "tBodyAcc-mean()-Y"                   
  [3] "tBodyAcc-mean()-Z"                   
@@ -95,13 +92,3 @@ featureName
 [77] "fBodyBodyGyroJerkMag-mean()"         
 [78] "fBodyBodyGyroJerkMag-std()"          
 [79] "fBodyBodyGyroJerkMag-meanFreq()"     
-[80] "angle(tBodyAccMean,gravity)"         
-[81] "angle(tBodyAccJerkMean),gravityMean)"
-[82] "angle(tBodyGyroMean,gravityMean)"    
-[83] "angle(tBodyGyroJerkMean,gravityMean)"
-[84] "angle(X,gravityMean)"                
-[85] "angle(Y,gravityMean)"                
-[86] "angle(Z,gravityMean)" 
-
-featureValue
-	range from -1 to 1

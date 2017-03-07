@@ -19,11 +19,14 @@ R script called run_analysis.R that does the following.
 
 A function 'combineFiles' to combine the files of the person (subject) to the activities and the activity features' measurements.
 Only the measurements on the mean and standard deviation for each measurement are selected.
-The activity feature's measurements are stacked (melt) to make it a narrow data set.
+
 
 The combineFiles function is called twice, first with the 'train'ing data set and second with the 'test' data set.
 
-The two data sets are pooled together into one set.
+The two data sets are stacked together into one data set.
 
-The measurement names are populated based on the original 'X' text file column position and the "features.txt" file,
+Add the descriptive activity names to name the activities in the data set.
 
+From the data set creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Output the independent tidy data set to a table.
