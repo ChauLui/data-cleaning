@@ -1,12 +1,15 @@
 
+CodeBook for file: BySubjectActivityAvg.txt
+
+
 subjectNum - the participants of the exercise/movement in the dataset.
 	Participants are numbered 1 through 30.
 
 
 activityName - types of activity tracked
 1. WALKING
-2. WALKING_UPSTAIRS
-3. WALKING_DOWNSTAIRS
+2. WALKING UPSTAIRS
+3. WALKING DOWNSTAIRS
 4. SITTING
 5. STANDING
 6. LAYING
