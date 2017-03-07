@@ -7,12 +7,13 @@ subjectNum - the participants of the exercise/movement in the dataset.
 
 
 activityName - types of activity tracked
-1. WALKING
-2. WALKING UPSTAIRS
-3. WALKING DOWNSTAIRS
-4. SITTING
-5. STANDING
-6. LAYING
+
+1.WALKING
+2.WALKING UPSTAIRS
+3.WALKING DOWNSTAIRS
+4.SITTING
+5.STANDING
+6.LAYING
 
 measurement columns: value range from -1 to 1
 
